@@ -2,7 +2,7 @@
     background-color: white;
     list-style: none;
     display: inline-block;
-    border:  7px double  rgb(27, 34, 71);
+    border: 7px double rgb(27, 34, 71);
     border-radius: 8px;
     /*margin-right: 20px;
     margin-left: 20px;
@@ -19,7 +19,7 @@
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
     text-align: center;
-    color:rgb(10, 4, 41);
+    color: rgb(10, 4, 41);
 }
 
 .menu {
@@ -27,7 +27,12 @@
     text-align: left;
 }
 
-header, section, footer, aside, nav, article {
+header,
+section,
+footer,
+aside,
+nav,
+article {
     display: block;
 }
 
@@ -55,6 +60,27 @@ article {
     background-color: aquamarine;
 }
 
+.referencias {
+    border: 1px solid black;
+    width: 200px;
+    float: left;
+    margin-top: 200px;
+    margin-left: 20px;
+}
+
+article footer {
+    text-align: right;
+}
+
+.pie {
+    clear: both;
+}
+
+img {
+    width: 400px;
+    height: 200px;
+}
+
 /*h1,h2,h3 {
     color: red;
 }
@@ -68,5 +94,3 @@ h2 {
 h3 {
     color: red;
 }*/
-
-
